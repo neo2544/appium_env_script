@@ -122,7 +122,7 @@ EOL
 
 # 14. 특정 웹 페이지 열기
 echo "WebDriverAgent 설정 관련 웹 페이지를 엽니다..."
-open "https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md"
+open "https://watchman-plus.notion.site/Getting-Started-mobile-52b492b4a90e4a60ac573632a56bf665#:~:text=WebDriverAgent.xcodeproj%20%EC%8B%A4%ED%96%89%ED%95%98%EC%97%AC%20xcode%20%EC%8B%A4%ED%96%89"
 
 # 15. WebDriverAgent Xcode 프로젝트 열기
 WDA_PROJECT_PATH=$(find "$HOME/.appium" -name WebDriverAgent.xcodeproj -print -quit)
