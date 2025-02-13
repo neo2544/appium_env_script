@@ -69,7 +69,7 @@ else
 fi
 
 # 7. Appium 특정 버전 설치
-APPIUM_VERSION="2.11.3"
+APPIUM_VERSION="2.13.0"
 INSTALLED_APPIUM_VERSION=$(appium --version 2>/dev/null)
 
 if [ "$INSTALLED_APPIUM_VERSION" != "$APPIUM_VERSION" ]; then
@@ -81,7 +81,7 @@ fi
 
 # 8. Appium 드라이버 설치 (특정 버전)
 echo "Appium XCUITest 드라이버 버전 7.27.0을 설치합니다..."
-appium driver install xcuitest@7.27.0
+appium driver install xcuitest@7.33.0
 
 # 9. FFmpeg 설치
 echo "FFmpeg를 설치합니다..."
